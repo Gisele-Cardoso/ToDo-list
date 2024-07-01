@@ -1,0 +1,49 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #8ecae6;
+}
+
+body{
+    padding-top: 15%;
+    display: grid;
+    place-items: center;
+}
+
+h2{
+    padding-bottom: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.concluido{
+    text-decoration: line-through;
+}
+
+#input-task{
+    border: none;
+    border: 1px solid #FFF;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+#lista, li{
+    display: block;
+    padding-top: 10px;
+}
+
+button {
+    margin-left: 20px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
